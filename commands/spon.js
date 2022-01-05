@@ -2,7 +2,10 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-    message.channel.send(`**Gezocht**: Sponsers`);
+    message.channel.send(`Sponsers
+    Server: *gezocht*
+    Discordbot: *gezocht*
+    Extern: *gezocht*`);
 
 }
 
