@@ -10,8 +10,8 @@ module.exports.run = async (bot, message, args) => {
         //text
         .setDescription(`----
         Survival:
-        node1.armyhost.nl:25500
-        *[1.18]*
+        minecompany.mcjoin.be
+        *[1.18.1]*
         ----
         `);
  
