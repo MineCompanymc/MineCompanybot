@@ -11,9 +11,9 @@ module.exports.run = async (bot, message, args) => {
 
     
 
-    totaalKanaal.setName(`👪〡 ${ledencount}`);
-    ledenKanaal.setName(`🧑〡 ${leden}`);
-    botKanaal.setName(`🤖〡 ${bots}`);
+    totaalKanaal.setName(`『👪』 ${ledencount}`);
+    ledenKanaal.setName(`『🧑』 ${leden}`);
+    botKanaal.setName(`『🤖』 ${bots}`);
 
     var ledenEmbed = new discord.MessageEmbed()
         .setTitle("Leden reload:")

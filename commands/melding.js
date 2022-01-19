@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
         var meldingEmbed = new discord.MessageEmbed()
             .setTitle("Gebruik")
             .setColor("#1821CA")
-            .setDescription(`Maak een melding door gebruik te maken van: \n melding title ${seperator} bericht ~~${seperator} kanaal~~`);
+            .setDescription(`Maak een melding door gebruik te maken van: \n melding title ${seperator} bericht`);
 
         return message.reply(meldingEmbed);
 
