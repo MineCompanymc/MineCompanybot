@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
         ---
         Eisen:
         - Goed draaiende discord hebben!
-        - Minstents 100 leden hebben.
+        - Minstents 150 leden hebben.
         - Een partner rank in jouw discord zodat wij ook reclame voor ons kunnen maken.
         - Een speciale dienst kunnen verlenen aan onze leden.
         - ...
