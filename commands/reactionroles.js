@@ -13,10 +13,10 @@ module.exports.run = async (bot, message, args) => {
             See our channels below:
             
             🔔: Notification
-            <:minecraft:778345193077473341>: @『🎮』Speler 
+            <:minecraft:778345193077473341>: Server
             🎧: DJ-Role
             :regional_indicator_s:: English
-            :regional_indicator_e:: @『 🇧🇪 』 Nederlands
+            :regional_indicator_e:: Dutch
             🧸: Promotion
 
             `)
