@@ -10,12 +10,12 @@ module.exports.run = async (bot, message, args) => {
     const emojiNl = ":regional_indicator_e:";
     const emojiPromo = "🧸";
 
-    const rolBel = message.guild.roles.cache.find(role => role.cache.get("773111584264028160"));
-    const rolMc = message.guild.roles.cache.find(role => role.cache.get("748953626411794541"));
-    const rolDj = message.guild.roles.cache.find(role => role.cache.get("796070982863290397"));
-    const rolEng = message.guild.roles.cache.find(role => role.cache.get("933356489760972867"));
-    const rolNl = message.guild.roles.cache.find(role => role.cache.get("933354936551473232"));
-    const rolPromo = message.guild.roles.cache.find(role => role.cache.get("933752304136511620"));
+    const rolBel = message.guild.roles.cache.find(role => role.id === "773111584264028160");
+    const rolMc = message.guild.roles.cache.find(role => role.id === "748953626411794541");
+    const rolDj = message.guild.roles.cache.find(role => role.id === "796070982863290397");
+    const rolEng = message.guild.roles.cache.find(role => role.id === "933356489760972867");
+    const rolNl = message.guild.roles.cache.find(role => role.id === "933354936551473232");
+    const rolPromo = message.guild.roles.cache.find(role => role.id === "933752304136511620");
 
     const embedEng = new discord.MessageEmbed()
         .setTitle("Roles")
