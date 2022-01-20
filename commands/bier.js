@@ -14,13 +14,13 @@ module.exports.run = async (bot, message, args) => {
         message.channel.send(`Hier neem dit: <:stella:891404782353408070>`);
         message.react("<:stella:891404782353408070>");
 
-    }else return message.react("jij moet nog een rol claimen/you still have to claim a role");
+    }else return message.channel.send("jij moet nog een rol claimen/you still have to claim a role");
 
 }
 
 module.exports.info = {
     name: "bier",
-    description: "Het armyhost partner bericht",
+    description: "Pilsie derbaaj",
     category: "Spelletjes",
     aliases: ["pils","beer"]
 }
