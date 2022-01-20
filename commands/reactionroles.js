@@ -6,8 +6,8 @@ module.exports.run = async (bot, message, args) => {
     const emojiBel = "🔔";
     const emojiMc = "⚒️";
     const emojiDj = "🎧";
-    const emojiEng = ":flag_gb:";
-    const emojiNl = ":flag_be:";
+    const emojiEng = "🔴";
+    const emojiNl = "🔵";
     const emojiPromo = "🧸";
 
     const rolBel = message.guild.roles.cache.find(role => role.id === "773111584264028160");
@@ -30,8 +30,8 @@ module.exports.run = async (bot, message, args) => {
             🔔: Notification
             ⚒️: Server
             🎧: DJ-Role
-            :flag_gb:: English
-            :flag_be:: Dutch
+            🔴: English
+            🔵: Dutch
             🧸: Promotion`)
         .setColor("#1821CA")
         .setFooter("©️ 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂")
