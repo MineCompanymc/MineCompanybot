@@ -45,7 +45,7 @@ module.exports.run = async (bot, message, args) => {
     embedEng.react(emojiNl);
     embedEng.react(emojiPromo);
 
-    client.on("messageReactionAdd", async (reaction,user) => {
+    bot.on("messageReactionAdd", async (reaction,user) => {
         if (user.bot) return;
 
         if (reaction.message.channel.id == channel) {
@@ -73,7 +73,7 @@ module.exports.run = async (bot, message, args) => {
         }
     });
 
-    client.on("messageReactionRemove", async (reaction,user) => {
+    bot.on("messageReactionRemove", async (reaction,user) => {
         if (user.bot) return;
 
         if (reaction.message.channel.id == channel) {
