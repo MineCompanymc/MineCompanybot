@@ -34,8 +34,8 @@ fs.readdir("./commands/", (err, files) => {
 
         client.commands.set(fileGet.info.name, fileGet);
 
-        fileGet.help.aliases.forEach(alias => {
-            client.aliases.set(alias, fileGet.help.name);
+        fileGet.info.aliases.forEach(alias => {
+            client.aliases.set(alias, fileGet.info.name);
         })
 
     });
