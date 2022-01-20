@@ -22,5 +22,5 @@ module.exports.info = {
     name: "bier",
     description: "Pilsie derbaaj",
     category: "Spelletjes",
-    aliases: ["pils","beer"]
+    aliases: ["pils","beer","beer","Pils","Bier"]
 }
