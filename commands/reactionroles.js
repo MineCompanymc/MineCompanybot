@@ -25,7 +25,7 @@ module.exports.run = async (bot, message, args) => {
         .setAuthor("MineCompany","https://cdn.discordapp.com/attachments/703149562847690752/768074837989916742/Mine_Company_Logo_-_kopie.png");
 
     message.channel.send(embedEng);
-    embedEng.react('🔔', '778345193077473341', '🎧', ':regional_indicator_s:', ':regional_indicator_e:', '🧸')
+    embedEng.react('🔔','778345193077473341','🎧','🧸')
 
 }
 
