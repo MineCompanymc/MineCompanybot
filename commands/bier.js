@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "bier",
-    aliases: [pils],
+    aliases: ["pils"],
     description: "Het armyhost partner bericht",
     category: "Spelletjes"
 }

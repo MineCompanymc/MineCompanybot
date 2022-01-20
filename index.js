@@ -36,7 +36,7 @@ fs.readdir("./commands/", (err, files) => {
 
         fileGet.help.aliases.forEach(alias => {
             client.aliases.set(alias, fileGet.help.name);
-        });
+        })
 
     });
 });
