@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-    const channel = "773122271266734080";
+    const channel = "802226603564335164";
     const emojiBel = "🔔";
     const emojiMc = "778345193077473341";
     const emojiDj = "🎧";
