@@ -6,8 +6,8 @@ module.exports.run = async (bot, message, args) => {
     const emojiBel = "🔔";
     const emojiMc = "778345193077473341";
     const emojiDj = "🎧";
-    const emojiEng = ":regional_indicator_s:";
-    const emojiNl = ":regional_indicator_e:";
+    const emojiEng = "933795496051486740";
+    const emojiNl = "933795470554333184";
     const emojiPromo = "🧸";
 
     const rolBel = message.guild.roles.cache.find(role => role.id === "773111584264028160");
