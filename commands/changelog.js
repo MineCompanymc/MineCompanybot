@@ -67,7 +67,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!log",
-    aliases: [],
     description: "Maak een change-log",
-    category: "Modderator"
+    category: "Modderator",
+    aliases: []
 }

@@ -41,7 +41,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!review",
-    aliases: [],
     description: "Schrijf een review",
-    category: "Informatie"
+    category: "Informatie",
+    aliases: []
 }

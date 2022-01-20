@@ -96,7 +96,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!kick",
-    aliases: [],
     description: "Kick een user",
-    category: "Modderator"
+    category: "Modderator",
+    aliases: []
 }

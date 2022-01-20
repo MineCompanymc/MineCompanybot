@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!rickroll",
-    aliases: [],
     description: "rickroll iemand",
-    category: "Spelletjes"
+    category: "Spelletjes",
+    aliases: []
 }

@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!mop",
-    aliases: [],
     description: "Laat de bot een mop vertellen",
-    category: "Spelletjes"
+    category: "Spelletjes",
+    aliases: []
 }

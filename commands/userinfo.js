@@ -32,7 +32,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!userinfo",
-    aliases: [],
     description: "Geeft de informatie van de speler dat je opgeeft informatie weer",
-    category: "Informatie"
+    category: "Informatie",
+    aliases: []
 }

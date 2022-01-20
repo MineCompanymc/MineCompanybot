@@ -20,7 +20,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!call",
-    aliases: [],
     description: "Maak een privé spraakkanaal aan",
-    category: "Informatie"
+    category: "Informatie",
+    aliases: []
 }

@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!ip",
-    aliases: [],
     description: "Geeft de Ip's van de servers weer",
-    category: "Informatie"
+    category: "Informatie",
+    aliases: []
 }

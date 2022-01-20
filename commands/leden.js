@@ -32,7 +32,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!leden",
-    aliases: [],
     description: "Reload de ledencount",
-    category: "Modderator"
+    category: "Modderator",
+    aliases: []
 }

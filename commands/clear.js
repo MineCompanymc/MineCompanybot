@@ -45,7 +45,7 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.info = {
     name: "!clear",
-    aliases: [],
     description: "Clear een aantal berichten",
-    category: "Modderator"
+    category: "Modderator",
+    aliases: []
 }

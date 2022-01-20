@@ -34,7 +34,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!level",
-    aliases: [],
     description: "Laat zien wat je level is.",
-    category: "Spelletjes"
+    category: "Spelletjes",
+    aliases: []
 }

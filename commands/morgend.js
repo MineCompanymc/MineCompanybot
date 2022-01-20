@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "morgend",
-    aliases: [],
     description: "morgend",
-    category: "Spelletjes"
+    category: "Spelletjes",
+    aliases: []
 }

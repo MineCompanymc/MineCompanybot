@@ -53,7 +53,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!rules",
-    aliases: [],
     description: "De regels van de discordserver",
-    category: "Modderator"
+    category: "Modderator",
+    aliases: []
 }
