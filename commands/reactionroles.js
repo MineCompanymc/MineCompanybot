@@ -24,18 +24,8 @@ module.exports.run = async (bot, message, args) => {
         .setFooter("©️ 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂")
         .setAuthor("MineCompany","https://cdn.discordapp.com/attachments/703149562847690752/768074837989916742/Mine_Company_Logo_-_kopie.png");
 
-    if (engels.some(role => message.member.roles.cache.get(role))){
-
-        message.channel.send(embedEng);
-        embedEng.react('🔔', '<:minecraft:778345193077473341>', '🎧', ':regional_indicator_s:', ':regional_indicator_e:', '🧸')
-
-    }else if (nederlands.some(role => message.member.roles.cache.get(role))){
-    
-        message.channel.send(`Hier neem dit: <:stella:891404782353408070>`);
-        message.react("<:stella:891404782353408070>");
-    
-    }else return message.channel.send("jij moet nog een rol claimen/you still have to claim a role");
-
+    message.channel.send(embedEng);
+    embedEng.react('🔔', '<:minecraft:778345193077473341>', '🎧', ':regional_indicator_s:', ':regional_indicator_e:', '🧸')
 
 }
 
