@@ -30,8 +30,8 @@ module.exports.run = async (bot, message, args) => {
             🔔: Notification
             <:minecraft:778345193077473341>: Server
             🎧: DJ-Role
-            :regional_indicator_s:: English
-            :regional_indicator_e:: Dutch
+            <:flag_en:933795496051486740> : English
+            <:flag_be:933795470554333184>: Dutch
             🧸: Promotion`)
         .setColor("#1821CA")
         .setFooter("©️ 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂")
@@ -45,7 +45,7 @@ module.exports.run = async (bot, message, args) => {
     embedEng.react(emojiNl);
     embedEng.react(emojiPromo);
 
-    discord.Client.on("messageReactionAdd", async (reaction,user) => {
+    client.on("messageReactionAdd", async (reaction,user) => {
         if (user.bot) return;
 
         if (reaction.message.channel.id == channel) {
@@ -73,7 +73,7 @@ module.exports.run = async (bot, message, args) => {
         }
     });
 
-    discord.Client.on("messageReactionRemove", async (reaction,user) => {
+    client.on("messageReactionRemove", async (reaction,user) => {
         if (user.bot) return;
 
         if (reaction.message.channel.id == channel) {
