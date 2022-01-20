@@ -45,6 +45,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!sluit",
+    aliases: [],
     description: "Bericht of het ticket gesloten mag worden",
     category: "Modderator"
 }

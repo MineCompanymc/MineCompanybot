@@ -44,6 +44,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!close",
+    aliases: [],
     description: "Sluit een ticket",
     category: "Ticket"
 }

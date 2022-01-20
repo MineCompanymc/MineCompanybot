@@ -131,6 +131,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!poll",
+    aliases: [],
     description: "Maak een poll aan",
     category: "Modderator"
 }

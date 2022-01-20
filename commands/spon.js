@@ -11,6 +11,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!spon",
+    aliases: [],
     description: "Wij zoeken sponsers",
     category: "Informatie"
 }

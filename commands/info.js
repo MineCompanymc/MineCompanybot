@@ -49,6 +49,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!info",
+    aliases: [],
     description: "Geeft de socials weer",
     category: "Informatie"
 }

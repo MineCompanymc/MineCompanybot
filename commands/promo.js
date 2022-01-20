@@ -84,6 +84,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!promo",
+    aliases: [],
     description: "Stuur het minecompany partner bericht.",
     category: "Informatie"
 }

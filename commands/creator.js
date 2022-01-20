@@ -33,6 +33,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!creator",
+    aliases: [],
     description: "Informatie over de rol *『🎥』Content Creator*",
     category: "Informatie"
 }

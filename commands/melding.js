@@ -49,6 +49,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!melding",
+    aliases: [],
     description: "Maak een mededeling",
     category: "Modderator"
 }

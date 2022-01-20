@@ -13,6 +13,7 @@ const { connect } = require("http2");
 
 const client = new discord.Client();
 client.commands = new discord.Collection();
+client.aliases = new discord.Collection();
 
 client.login(process.env.token);
 
@@ -32,6 +33,11 @@ fs.readdir("./commands/", (err, files) => {
         console.log(`file ${f} is geladen`);
 
         client.commands.set(fileGet.info.name, fileGet);
+
+        fileGet.help.aliases.forEach(alias => {
+            client.aliases.set(alias, fileGet.help.name);
+        });
+
     });
 });
 
@@ -206,7 +212,7 @@ client.on("message", async messsage  => {
 
     var args = messageArray.slice(1);
 
-    var commands = client.commands.get(command.slice(prefix.length));
+    var commands = client.commands.get(command.slice(prefix.length)) || client.commands.get(client.aliases.get(command.slice(prefix.length)));
 
     var options = {
         active: activeSongs

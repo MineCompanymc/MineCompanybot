@@ -58,6 +58,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!help",
+    aliases: [],
     description: "Geeft de commands weer",
     category: "Informatie"
 }

@@ -81,6 +81,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!giveaway",
+    aliases: [],
     description: "Start een giveaway",
     category: "Modderator"
 }

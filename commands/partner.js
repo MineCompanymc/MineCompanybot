@@ -37,6 +37,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!partner",
+    aliases: [],
     description: "Informatie over de rol *『🧍』Partner*",
     category: "Informatie"
 }

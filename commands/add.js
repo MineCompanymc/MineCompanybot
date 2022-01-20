@@ -83,6 +83,7 @@ async function promptMessage(message, author, time, reactions) {
 
 module.exports.info = {
     name: "!add",
+    aliases: [],
     description: "Voeg mensen toe aan een ticket.",
     category: "Ticket"
 }

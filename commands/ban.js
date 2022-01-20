@@ -38,6 +38,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!ban",
+    aliases: [],
     description: "Ban een user",
     category: "Modderator"
 }

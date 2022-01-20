@@ -14,6 +14,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!say",
+    aliases: [],
     description: "laat de bot jou nazeggen",
     category: "Modderator"
 }

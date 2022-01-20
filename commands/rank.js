@@ -34,6 +34,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!rank",
+    aliases: [],
     description: "Laat het leaderboard zien!",
     category: "Spelletjes"
 }

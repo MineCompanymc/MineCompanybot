@@ -46,6 +46,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.info = {
     name: "!staffrules",
+    aliases: [],
     description: "De staffregels van de discordserver",
     category: "Modderator"
 }
