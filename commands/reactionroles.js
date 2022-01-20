@@ -4,10 +4,10 @@ module.exports.run = async (bot, message, args) => {
 
     const channel = "802226603564335164";
     const emojiBel = "🔔";
-    const emojiMc = "778345193077473341";
+    const emojiMc = "⚒️";
     const emojiDj = "🎧";
-    const emojiEng = "933795496051486740";
-    const emojiNl = "933795470554333184";
+    const emojiEng = ":flag_gb:";
+    const emojiNl = ":flag_be:";
     const emojiPromo = "🧸";
 
     const rolBel = message.guild.roles.cache.find(role => role.id === "773111584264028160");
@@ -28,10 +28,10 @@ module.exports.run = async (bot, message, args) => {
             See our channels below:
             
             🔔: Notification
-            <:minecraft:778345193077473341>: Server
+            ⚒️: Server
             🎧: DJ-Role
-            <:flag_en:933795496051486740> : English
-            <:flag_be:933795470554333184>: Dutch
+            :flag_gb:: English
+            :flag_be:: Dutch
             🧸: Promotion`)
         .setColor("#1821CA")
         .setFooter("©️ 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂")
