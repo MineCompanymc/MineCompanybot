@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
     const rolNl = message.guild.roles.cache.find(role => role.id === "933354936551473232");
     const rolPromo = message.guild.roles.cache.find(role => role.id === "933752304136511620");
 
-    const embedEn = new discord.MessageEmbed()
+    const embed = new discord.MessageEmbed()
         .setTitle("Roles")
         .setDescription(`Which channels would you like to see?
             In this post you can turn on/off different channels.
@@ -37,7 +37,7 @@ module.exports.run = async (bot, message, args) => {
         .setFooter("©️ 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂")
         .setAuthor("MineCompany","https://cdn.discordapp.com/attachments/703149562847690752/768074837989916742/Mine_Company_Logo_-_kopie.png");
 
-    var embedEng = await message.channel.send(embedEn);
+    var embedEng = await message.channel.send(embed);
     embedEng.react(emojiBel);
     embedEng.react(emojiMc);
     embedEng.react(emojiDj);
