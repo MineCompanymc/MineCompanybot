@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
         //text
         .setDescription(`----
         Survival:
-        minecompany.mcjoin.be
+        185.227.81.177:25575
         *[1.18.1]*
         ----
         `);

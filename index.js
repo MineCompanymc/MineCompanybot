@@ -95,15 +95,14 @@ client.on("guildMemberRemove", member => {
 
 client.on("guildMemberAdd", member => {
 
-        const logChannel = member.guild.channels.cache.find(channel => channel.name === "『👋』welcome");
+    const logChannel = member.guild.channels.cache.find(channel => channel.name === "『👋』welcome");
 
-        logChannel.send(`Hello ${member.user.tag} welcome to 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂! Read the Rules and then I wish you another fun Discord experience!`)
-    });
+    logChannel.send(`Hello ${member.user.tag} welcome to 𝓜𝓲𝓷𝓮𝓒𝓸𝓶𝓹𝓪𝓷𝔂! Read the Rules and then I wish you another fun Discord experience!`)
+});
 
 client.on("guildMemberRemove", member => {
-    const welcomeChannel = member.guild.channels.cache.find(
-      channel => channel.name === "『👋』welcome"
-    );
+    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === "『👋』welcome");
+    
     welcomeChannel.send(`Jammer ${member} is weggegaan!`);
 });
 
