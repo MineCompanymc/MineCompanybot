@@ -11,5 +11,5 @@ module.exports.info = {
     name: "Clap",
     description: "Aplaus",
     category: "Spelletjes",
-    aliases: []
+    aliases: ["clap","CLAP"]
 }

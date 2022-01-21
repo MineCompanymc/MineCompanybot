@@ -11,5 +11,5 @@ module.exports.info = {
     name: "catJAM",
     description: "danskat",
     category: "Spelletjes",
-    aliases: []
+    aliases: ["catjam","CATJAM","CATjam"]
 }
